@@ -23,23 +23,32 @@
 <body>
 
     <main class="max-w-7xl mx-auto px-16 lg:px-28">
-<header class="flex pt-10 mb-10">
+        <!-- header section -->
+<header class="md:flex lg:flex pt-10 mb-10">
+    <!-- left side of the landing page-->
             <div>
-                <h1 Class="text-5xl md:text-5xl">It's good<br>tea time at The<br>Tea House
+                <h1 Class="text-7xl md:text-5xl lg:text-7xl">It's good<br>tea time at The<br>Tea House
                 </h1>
                 <br>
+                <!-- description -->
                 <p class="text-gray-500 wd-3/4">
                     Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                 </p>
                 <br>
+                <!-- explore more button -->
                 <button class="text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] px-5 py-2 rounded-lg font-bold">Explore More <i class="fa-solid fa-arrow-up rotate-45"></i></button>
             </div>
+            <!-- right side of the landing page-->
             <div class="relative">
+
+                <!--Image of the banner-->
                 <div>
                     <img class="w-full" src="images/banner.png" alt="tea image">
                 </div>
 
-                <div class="absolute flex content-center items-center bg-white shadow-lg rounded-lg px-3 py-3 gap-2 md:px-10 lg:py-4 top-28 md:top-80">
+                <!-- rating box-->
+                <div class="absolute flex content-center items-center bg-white shadow-lg rounded-lg px-3 py-3 gap-2 md:px-10 lg:py-4 top-28 md:top-50 md:left-2 lg:left-28 lg:top-80">
+                    <!-- star icon -->
                     <div><i class="fa-solid fa-star" style="color: #FFD43B;"></i></div>
                     <div>
                         <h2 class="font-bold text-3xl lg:text-2xl">5.00</h2>
@@ -48,10 +57,61 @@
                         </p>
                     </div>
                 </div>
-                
-
             </div>
         </header>
+        <!-- featured product section-->
+         <section class="py-8 lg:py-24">
+            <div class="text-center mb-4">
+                <h1 class="text-3xl md:text-4xl mb-8">Our Featured Products</h1>
+                <p class="text-gray-500 w-5/6 text-center mx-auto">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                </p>
+            </div>
+            <!-- featured products grid-->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- product-1 -->
+             <div class="rounded-lg bg-gray-60 shadow-md overflow-hidden text-center">
+                <img class="mx-auto pt-4" src="./images/tea-1.png" alt="This is the first card image">
+                <h3 class="text-3xl font-bold py-4">
+                    Milk Tea
+                </h3>
+                <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+             </div>
+
+             <!-- product-2 -->
+             <div class="rounded-lg bg-gray-60 shadow-md overflow-hidden text-center">
+                <img class="mx-auto pt-4" src="./images/tea-2.png" alt="This is the first card image">
+                <h3 class="text-3xl font-bold py-4">
+                    Black Tea
+                </h3>
+                <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+             </div>
+
+             <!-- product-3 -->
+             <div class="rounded-lg bg-gray-60 shadow-md overflow-hidden text-center">
+                <img class="mx-auto pt-4" src="./images/tea-3.png" alt="This is the first card image">
+                <h3 class="text-3xl font-bold py-4">
+                    Lemon Tea
+                </h3>
+                <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+             </div>
+
+             <!-- product-4 -->
+             <div class="rounded-lg bg-gray-60 shadow-md overflow-hidden text-center">
+                <img class="mx-auto pt-4" src="./images/tea-4.png" alt="This is the first card image">
+                <h3 class="text-3xl font-bold py-4">
+                    
+                    Green Tea
+                </h3>
+                <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+             </div>
+            </div>
+
+            
+
+
+         </section>
     </main>
     
 </body>
